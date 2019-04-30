@@ -1,0 +1,18 @@
+-- 创建数据表user id tinyint 字段
+-- 添加一个username 字段 varchar(5) not null
+-- 一次添加2个字段 password char(32) not null email varchar(10) not null
+-- 给email字段添加默认值 'imooc@qq.com'
+-- 将username字段改为username 类型varchar(20) not null
+-- 将password字段改为password char(40) not null
+-- 给id字段主键索引
+-- 给id增加AUTO_INCREMENT属性
+-- 给username字段添加唯一索引
+-- 给email字段添加唯一索引名称是uni_email
+-- 在一次添加2个字段 age TINYINT UNSIGNEED DEFAULT 18 加到password之后
+-- addr VARCHAR(20) NOT NULL DEFAULT '北京'
+-- 删除addr的默认值
+-- 删除password唯一索引
+-- 删除email唯一索引
+-- 删除主键索引
+-- 重命名user表叫new_user
+-- 将new_user重命名回user
